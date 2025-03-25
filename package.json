@@ -1,0 +1,31 @@
+{
+  "name": "flat_finder_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd flat_finder_backend && npm start",
+    "client": "cd flat-finder-frontend && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "dropzone": "^6.0.0-beta.2",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.37.4",
+    "express-validator": "^7.2.1",
+    "firebase": "^11.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-router-dom": "^7.4.0"
+  }
+}
